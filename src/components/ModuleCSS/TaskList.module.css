@@ -1,0 +1,100 @@
+main {
+    background-color: #0079BF;
+}
+  
+  .taskBlock {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #EBECF0;
+    text-align: center;
+    border-radius: 8px;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .taskTitle {
+    display: flex;
+    align-self: flex-start;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 10px;
+  }
+  
+  .taskList {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .taskItem {
+    margin-bottom: 10px;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 400;
+    color: #000000;
+    text-align: left;
+  }
+  
+  .taskItem h3 {
+    font-weight: 400;
+    margin: 0;
+    padding: 5px;
+  }
+
+  .taskDescription {
+    font-size: 0.875rem;
+    color: #666;
+  }
+
+  .taskInfo {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
+  
+  .taskSelect {
+    width: 150px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    font-size: 12px;
+    color: #000000;
+    cursor: pointer;
+}
+
+.taskSelect:hover {
+    border-color: #888;
+}
+
+.taskSelect:focus {
+    outline: none;
+    border-color: #007BFF;
+}
+
+.taskSelect option {
+    color: #000000;
+    background-color: #FFFFFF;
+}
+
+.taskSelect option:checked {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+.taskSubmit {
+    margin: 0 3px;
+    color: #FFFFFF;
+    background-color: #0079BF;
+    border: none;
+    border-radius: 5px;
+    align-self: center;
+}
+
+.taskCancel {
+    color: #FFFFFF;
+    background-color: #5E6C84;
+    border: none;
+    border-radius: 5px;
+    align-self: center;
+}

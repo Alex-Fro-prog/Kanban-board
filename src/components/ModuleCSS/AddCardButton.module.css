@@ -1,0 +1,19 @@
+.button {
+    display: flex;
+    background-color: transparent;
+    cursor: pointer;
+    color: #5E6C84;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    align-self: flex-start;
+  }
+  
+  .buttonDisabled {
+    display: flex;
+    align-self: flex-start;
+    background-color: transparent;
+    padding: 10px;
+    cursor: not-allowed;
+    border: none;
+  }  

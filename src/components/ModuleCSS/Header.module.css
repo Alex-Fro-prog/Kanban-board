@@ -1,0 +1,68 @@
+.headerContainer {
+    padding-left: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    background-color: #0067A3;
+}
+
+.headerName {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    color: #FFFFFF;
+}
+
+.headerUserMenu {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    padding-right: 16px;
+}
+
+.userAvatar {
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.userIcons {
+    width: 24px;
+    height: 24px;
+}
+
+.userList {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 15px;
+    background-color: #fff;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #000000;
+    border-radius: 5px;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+    .headerContainer {
+        display: flex;
+        padding-left: 250px;
+    }
+    .headerName {
+        display: none;
+    }
+    .userIcons {
+        width: 24px;
+        height: 24px;
+    }
+    .headerUserMenu {
+        display: flex;
+        margin: 10px 0;
+    }
+}

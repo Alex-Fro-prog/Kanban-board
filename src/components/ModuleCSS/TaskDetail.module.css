@@ -1,0 +1,48 @@
+.taskDetailContainer {
+    display: grid;
+    margin: 25px;
+    grid-template: 1fr/ 3fr 1fr;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+}
+
+.taskDetailInfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.taskDetailTitle {
+    padding: 20px 0 35px 25px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+}
+
+.taskDetailText {
+    width: 90%;
+    min-height: 250px;
+    padding-left: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    resize: vertical;
+}
+
+.taskDetailSave {
+    margin: 25px 0 25px 25px;
+    cursor: pointer;
+    background-color: #007BFF;
+    color: #FFFFFF;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    align-self: flex-start;
+}
+
+.taskDetailBackToMain {
+    cursor: pointer;
+    margin-top: 45px;
+    align-self: flex-start;
+    border: none;
+    background: none;
+}

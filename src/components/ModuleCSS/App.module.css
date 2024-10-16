@@ -1,0 +1,26 @@
+.kanbanBoardContainer > div {
+    display: grid;
+    grid-template: 1fr/1fr 1fr 1fr 1fr;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+}
+  
+.taskDetailContainer {
+    display: grid;
+    grid-template: 1fr / 1fr;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 0;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+    .kanbanBoardContainer > div {
+        display: grid;
+        grid-template: 1fr 1fr 1fr 1fr/1fr;
+        row-gap: 20px;
+    }
+}
+
